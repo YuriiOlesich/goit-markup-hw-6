@@ -236,13 +236,14 @@ overflow: hidden;
   padding-bottom: 32px;
 }
 
-.team-card {
+.team-info-card {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 
 .team-person-name {
+  display: block;
   text-align: center;
   margin-bottom: 8px;
   font-weight: 500;
@@ -258,6 +259,7 @@ overflow: hidden;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 32px;
 }
 
 .portfolio-section {
@@ -316,12 +318,10 @@ overflow: hidden;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
-
 .portfolio-text {
-  text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -329,7 +329,6 @@ overflow: hidden;
   text-transform: capitalize;
   color: #434455;
 }
-
 
 .page-footer {
   background-color: #2e2f42;
