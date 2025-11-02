@@ -187,10 +187,14 @@ overflow: hidden;
 
 .preferred-list {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
+  list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.preferred-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .preferred-text {
@@ -216,16 +220,16 @@ overflow: hidden;
 
 .team-list {
   display: flex;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
   gap: 24px;
-  margin-bottom: 72px; 
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .team-list-item {
   background-color: #FFFFFF;
-  text-align: center;
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -252,7 +256,7 @@ overflow: hidden;
 }
 
 .portfolio-container {
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .portfolio-title {
@@ -294,6 +298,7 @@ overflow: hidden;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 
