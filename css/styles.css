@@ -764,7 +764,7 @@ overflow: hidden;
   color: #8e8f99;
 }
 
-.privacy-link {
+.privacy-span {
   position: fixed;
   align-items: center;
   justify-content: center;
@@ -800,5 +800,4 @@ overflow: hidden;
   cursor: pointer;
   background-color: #4D5AE5;
   border: none;
-
 }
