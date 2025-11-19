@@ -694,7 +694,7 @@ overflow: hidden;
 }
 
 .modal-form {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-title {
@@ -704,7 +704,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-margin-bottom: 16px;
+margin-bottom: 8px;
 }
 
 .user-label {
@@ -809,12 +809,8 @@ margin-bottom: 16px;
 .checkbox-input:checked + .checkbox-label .custom-checkbox {
   background-color:  #404bbf;
   border: none;
-}
-
-.checkbox-input:checked + .checkbox-label .custom-checkbox .checkbox-icon {
   fill: #F4F4FD;
 }
-
 
 .privacy-link {
   color: var(--link-color, #4d5ae5);
