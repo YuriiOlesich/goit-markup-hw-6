@@ -694,7 +694,7 @@ overflow: hidden;
 }
 
 .modal-form {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-title {
@@ -709,7 +709,7 @@ margin-bottom: 16px;
 
 .user-label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -807,13 +807,14 @@ margin-bottom: 16px;
 }
 
 .checkbox-input:checked + .checkbox-label .custom-checkbox {
-  background-color: var(--accent-color, #404bbf);
+  background-color:  #404bbf;
   border: none;
 }
 
-.checkbox-input:checked + .checkbox-label .checkbox-icon {
-  fill: var(--checkbox-icon-fill);
+.checkbox-input:checked + .checkbox-label .custom-checkbox .checkbox-icon {
+  fill: #F4F4FD;
 }
+
 
 .privacy-link {
   color: var(--link-color, #4d5ae5);
