@@ -705,18 +705,11 @@ margin-bottom: 16px;
 
 .modal-form {
   margin-bottom: 8px;
-  padding: 0;
-  overflow: hidden;
-}
-
-.modal-form {
-  margin-bottom: 8px;
 }
 
 .modal-form:last-of-type {
   margin-bottom: 16px; 
 }
-
 
 .user-label {
   display: block;
