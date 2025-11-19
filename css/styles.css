@@ -711,6 +711,10 @@ margin-bottom: 16px;
   margin-bottom: 16px; 
 }
 
+.textarea-wrapper {
+  margin-bottom: 16px;
+}
+
 .user-label {
   display: block;
   margin-bottom: 4px;
