@@ -21,7 +21,7 @@
     <header class="page-header">
           <div class="container header-container">
             <nav class="header-nav">
-              <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
+              <a class="logo header-logo" href="./index.html">Web<span class="header-logo logo-part">Studio</span></a>
               <ul class="nav-list">
                 <li class="nav-item">
                   <a class="nav-link current" href="./index.html">Studio</a>
@@ -37,10 +37,18 @@
             
               <address class="contacts">
             <ul class="contacts-list">
-              <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-              <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+              <li class="contacts-item">
+                <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li class="contacts-item">
+                <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
               </address>
+
+              <button class="burger-btn" type="button">
+                <svg class="burger-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+              </button>
           </div>
     </header>
 <!-- header end -->
@@ -48,7 +56,7 @@
 <!-- main -->
       <main class="page-main">
         <!--services section-->
-        <section class="section button-section">
+        <section class="section button-section hidden">
             <div class="container button-container">
                 <h1 class="solutions-title">Effective Solutions for Your Business</h1>
                 <button class="main-button" type="button">Order Service</button>
@@ -57,7 +65,7 @@
         <!--services section end-->
 
 <!--preferred qualities section-->
-      <section class="section preferred-section">
+      <section class="section preferred-section hidden">
           <div class="container">
             <h2 class="preferred-title visually-hidden">Preferred Qualities</h2>
             <ul class="preferred-list">
@@ -103,7 +111,7 @@
   <!--preferred qualities section end-->
 
   <!--team section-->
-      <section class="section team-section">
+      <section class="section team-section hidden">
           <div class="container">
             <h2 class="team-title">Our Team</h2>
             <ul class="team-list">
@@ -260,7 +268,7 @@
       </section>    
 <!--team section end-->
 <!--portfolio section-->
-      <section class="section portfolio-section">
+      <section class="section portfolio-section hidden">
           <div class="container portfolio-container">
             <h2 class ="portfolio-title">Our Portfolio</h2>
             <ul class="portfolio-list">
@@ -367,7 +375,7 @@
 <!--main end-->
 
 <!--footer-->
-  <footer class="page-footer">
+  <footer class="page-footer hidden">
   <div class="container footer-container">
     <div class="footer-branding">
       <a class="footer-logo" href="./index.html">Web<span class="footer-logo-part">Studio</span></a>
@@ -426,7 +434,7 @@
   </div>
 </footer>
 
-<div class="modal-wrapper">
+<div class="modal-wrapper hidden">
   <div class="modal-popup">
     <button class="modal-close-button" type="button">
       <svg class="modal-close-icon" width="8" height="8">
