@@ -434,7 +434,7 @@
   </div>
 </footer>
 
-<div class="modal-wrapper hidden">
+<div class="modal-wrapper">
   <div class="modal-popup">
     <button class="modal-close-button" type="button">
       <svg class="modal-close-icon" width="8" height="8">
@@ -443,7 +443,7 @@
     </button>
     <p class="modal-title">Leave your contacts and we will call you back</p>
     <form>
-      <!-- Name -->
+      <!-- name -->
       <div class="modal-form">
         <label class="user-label" for="user-name">Name</label>
         <div class="input-icon">
@@ -454,7 +454,7 @@
         </div>
       </div>
 
-      <!-- Phone -->
+      <!-- phone -->
       <div class="modal-form">
         <label class="user-label" for="user-phone">Phone</label>
         <div class="input-icon">
@@ -465,7 +465,7 @@
         </div>
       </div>
 
-      <!-- Email -->
+      <!-- email -->
       <div class="modal-form">
         <label class="user-label" for="user-email">Email</label>
         <div class="input-icon">
@@ -476,13 +476,13 @@
         </div>
       </div>
 
-      <!-- Comment -->
+      <!-- comment -->
       <div class="modal-form textarea-wrapper">
         <label class="user-label" for="user-comment">Comment</label>
         <textarea class="input-form textarea-form" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
       </div>
 
-      <!-- Checkbox -->
+      <!-- checkbox -->
       <div class="checkbox-wrapper">
         <input 
           class="checkbox-input visually-hidden custom-checkbox-input" 
@@ -501,11 +501,67 @@
           <a class="privacy-link" href="#">Privacy Policy</a>
         </label>
       </div>
-
-      <!-- Submit Button -->
       <button class="main-button" type="submit">Send</button>
     </form>
   </div>
+</div>
+
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-menu-close" type="button" id="mobile-menu-close">
+    <svg class="mobile-menu-close-icon" width="8" height="8">
+      <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  
+  <nav class="mobile-nav">
+    <ul class="mobile-nav-list">
+      <li><a href="./index.html" class="mobile-nav-link current">Studio</a></li>
+      <li><a href="" class="mobile-nav-link">Portfolio</a></li>
+      <li><a href="" class="mobile-nav-link">Contacts</a></li>
+    </ul>
+  </nav>
+  
+  <address class="mobile-contacts">
+    <ul class="mobile-contacts-list">
+      <li>
+        <a href="tel:+110001111111" class="mobile-contacts-link tel">+11 (000) 111-11-11</a>
+      </li>
+      <li>
+        <a href="mailto:info@devstudio.com" class="mobile-contacts-link">info@devstudio.com</a>
+      </li>
+    </ul>
+  </address>
+  
+  <ul class="mobile-socials-list">
+    <li class="mobile-socials-item">
+      <a href="#" class="mobile-socials-link">
+        <svg class="mobile-socials-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mobile-socials-item">
+      <a href="#" class="mobile-socials-link">
+        <svg class="mobile-socials-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-twitter"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mobile-socials-item">
+      <a href="#" class="mobile-socials-link">
+        <svg class="mobile-socials-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mobile-socials-item">
+      <a href="#" class="mobile-socials-link">
+        <svg class="mobile-socials-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-linkedin"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
 </div>
 </body>
 </html>
