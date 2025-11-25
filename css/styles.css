@@ -246,6 +246,28 @@ overflow: hidden;
   text-align: center;
 }
 
+/*hd resolution */
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+  .button-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                      url('../images/people-office@2x.jpg');
+  }
+}
+
+/* tablet+ */
+@media screen and (min-width: 768px) {
+  .button-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                      image-set(
+                        url('../images/people-office.jpg') 1x,
+                        url('../images/people-office@2x.jpg') 2x
+                      );
+  }
+}
+
 .solutions-title {
   font-size: 36px;
   line-height: 1.07;
@@ -1259,6 +1281,7 @@ overflow: hidden;
 
 .modal-submit-button {
   display: block;
+
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
