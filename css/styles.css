@@ -253,10 +253,8 @@ overflow: hidden;
   .button-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                    image-set(
-                      url('../images/people-office.jpg') 1x,
-                      url('../images/people-office@2x.jpg') 2x
-                    );
+                    image-set
+                      url('../images/people-office@2x.jpg');
   }
 }
 
@@ -265,7 +263,6 @@ overflow: hidden;
   .button-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                       image-set(
-                        url('../images/people-office.jpg') 1x,
                         url('../images/people-office@2x.jpg') 2x
                       );
   }
@@ -301,10 +298,8 @@ overflow: hidden;
   .button-section {
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                      image-set(
-                        url('../images/people-office.jpg') 1x,
-                        url('../images/people-office2x.jpg') 2x
-                      );
+                        url('../images/people-office.jpg');
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
