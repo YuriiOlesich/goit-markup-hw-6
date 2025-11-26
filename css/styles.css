@@ -237,7 +237,8 @@ overflow: hidden;
 }
 
 .button-section {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+                  rgba(46, 47, 66, 0.7)),
                     url('../images/people-office.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -247,9 +248,8 @@ overflow: hidden;
 }
 
 /*hd resolution */
-@media screen and (-webkit-min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
+@media  screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
   .button-section {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
